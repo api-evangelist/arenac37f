@@ -1,23 +1,51 @@
 aid: arenac37f
+
 name: Arenac37f
-description: 'Arenac37f is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: 'Arenac37f is a placeholder company identified during the API Evangelist secondary-market harvest. It currently exists as a stub entry awaiting further discovery and verification of its real-world presence, official website, and API offerings. No concrete public information or documentation has been located as of the profiling date, and the entry serves as a starting point for future enrichment when reliable sources become available.'
+
 url: https://raw.githubusercontent.com/api-evangelist/arenac37f/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-25 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-25'
+
 modified: '2026-09-25'
+
 tags:
 - Company
-apis: []
+- API
+- Data
+- Placeholder
+- Stub
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Hosts
+  url: hosts/arenac37f-hosts.yml
+- type: Vendors
+  url: vendors/arenac37f-vendors.yml
+- type: DomainSecurity
+  url: security/arenac37f-domain-security.yml
 - type: Website
   url: https://equityzen.com/company/arenac37f
+
+apis: []
+x-enrichment:
+  date: '2026-09-25'
+  status: enriched
+  artifacts_added: 3
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local
